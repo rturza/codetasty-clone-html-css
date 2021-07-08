@@ -1,0 +1,38 @@
+Header {
+  width: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+
+  display: flex;
+}
+.header-logo {
+  width: 20%;
+}
+
+.nav-menu {
+  display: flex;
+  width: 80%;
+  padding-left: 50%;
+  padding-top: 50px;
+}
+.nav-menu-item a {
+  text-decoration: none;
+  padding: 20px;
+  text-align: left;
+  font-weight: 300;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-menu-item {
+  text-align: right;
+}
+.nav-menu-item button {
+  background-color: transparent;
+  border: 1px solid red;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: -10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
